@@ -8,6 +8,7 @@ import { router } from 'expo-router';
 import { useChatContext } from 'stream-chat-expo';
 import { useAuth } from '@/providers/AuthProvider';
 import { supabase } from '@/lib/supabase';
+
 const channel = useChatContext
 function dayjs(created_at: any) {
   throw new Error('Function not implemented.');
@@ -190,9 +191,6 @@ const styles = StyleSheet.create({
     fontWeight: "bold", // Bold text for clarity
   },
 });
-
-
-
 
 export default home
 

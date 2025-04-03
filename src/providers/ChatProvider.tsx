@@ -18,6 +18,7 @@ const ChatContext = React.createContext<{
 
 export const ChatProvider = ({ children }: PropsWithChildren) => {
     const [isReady, setIsReady] = useState(false)
+    
     const theme: DeepPartial<Theme> = {
         channelListMessenger: {
           flatList: {

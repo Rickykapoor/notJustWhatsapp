@@ -26,7 +26,12 @@ const SignIn = () => {
     setLoading(false)
   }
   return (
-    
+    <LinearGradient colors={['#10002B', '#240046', '#3C096C', '#5A189A']} 
+      locations={[0.2, 0.5, 0.8, 1]}  
+      start={{ x: 0.5, y: 0 }} 
+      end={{ x: 0.5, y: 1 }} 
+      style={{flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 20}}
+    >
       
       <ScrollView>
         <StatusBar barStyle="light-content" />   
@@ -37,12 +42,18 @@ const SignIn = () => {
 
             <View className='flex-row items-center gap-2 justify-center w-full h-14 pl-7  border-2 border-gray-400 rounded-xl mt-4'>
         <Fontisto name="email" size={24} color="gray" />
-            <TextInput placeholder='Email' className='w-full h-full px-4 py-2   rounded-xl ' value={email} onChangeText={setEmail}/>
+            <TextInput placeholder='Email' className='w-full h-full px-4 py-2 text-white  rounded-xl ' value={email} onChangeText={setEmail}/>
         </View>
+
         <View className='flex-row items-center gap-2 justify-center w-full h-14 pl-7  border-2 border-gray-400 rounded-xl mt-4'>
+            <Ionicons name="lock-closed-outline" size={24} color="gray" />
+            <TextInput placeholder='Email' className='w-full h-full px-4 py-2  text-white rounded-xl ' value={password} onChangeText={setPassword}/>
+        </View>
+
+        {/* <View className='flex-row items-center gap-2 justify-center w-full h-14 pl-7  border-2 border-gray-400 rounded-xl mt-4'>
         <Ionicons name="lock-closed-outline" size={24} color="gray" />
             <TextInput placeholder='Password' className='w-full h-full px-4 py-2   rounded-xl ' value={password} onChangeText={setPassword}/>
-        </View>
+        </View> */}
 
         
             <TouchableOpacity onPress={signInWithEmail} className='justify-center items-center w-150 h-14 px-10 py-2 bg-red-400 rounded-xl mt-7'>
@@ -56,7 +67,7 @@ const SignIn = () => {
         </View>
         </View>
     </ScrollView>
-
+    </LinearGradient>
   )
 }
 

@@ -11,7 +11,7 @@ const ProfileScreen = () => {
 
   const handleLogout = async () => {
     await supabase.auth.signOut();
-    router.replace('/login');
+    router.replace('/(auth)/SignIn');
   };
 
   return (

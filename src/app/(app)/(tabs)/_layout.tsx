@@ -24,6 +24,7 @@ const TabsLayout = () => {
         backgroundColor: '#10002B',
       },
     }}>
+
       <Tabs.Screen name='home' options={{
         title: 'Home',
         headerTitle: 'notJustWhatsApp',

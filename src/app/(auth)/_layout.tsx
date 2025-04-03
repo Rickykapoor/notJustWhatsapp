@@ -18,11 +18,7 @@ const AuthLayout = () => {
       
         <SafeAreaView className="flex-1 bg-white">
         <KeyboardAvoidingView behavior="padding" className="flex-1">
-        {/* <LinearGradient colors={["#1E0C47", "#462B72"]} style={{flex: 1}}> */}
-         
             <Slot />
-          
-        {/* </LinearGradient> */}
         </KeyboardAvoidingView>
         </SafeAreaView>
       </TouchableWithoutFeedback>
