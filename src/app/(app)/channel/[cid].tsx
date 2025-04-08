@@ -1,36 +1,26 @@
-import { View, Text, ActivityIndicator } from 'react-native'
-import React, { useEffect, useState } from 'react'
-import { MessageInput } from 'stream-chat-expo'
-import { MessageList } from 'stream-chat-expo'
-    import { Channel } from 'stream-chat-expo'
-import { useLocalSearchParams } from 'expo-router'
-import { Channel as Channeltype } from 'stream-chat'
-import { useChatContext } from 'stream-chat-expo'
-const index = () => {
-        const {cid} = useLocalSearchParams();   
-    const [channel, setChannel] = useState< Channeltype | null>(null);
-    
-    const {client} = useChatContext();
-    useEffect(()=>{
-        const fetchChannel = async () => {
-            const channels = await client.queryChannels({cid: cid as string});
-            setChannel(channels[0]);
-        }
-        fetchChannel();
-    },[])
-    if(!channel){
-        return(
-            <View className='flex-1 justify-center items-center'>
-                <ActivityIndicator/>
-            </View>
-        )
-    }
-    return(
-        <Channel channel={channel}>
-          <MessageList/>
-          <MessageInput/>
-        </Channel>
-      ) 
-}
+import { View, Text, ActivityIndicator } from 'react-native';
+import React from 'react';
+import { MessageInput, MessageList, Channel } from 'stream-chat-expo';
+import { useChatContext } from '@/providers/ChatProvider'; // ✅ Use your custom provider
 
-export default index
+const ChannelScreen = () => {
+  const { activeChannel, isReady } = useChatContext();
+
+  if (!isReady || !activeChannel) {
+    return (
+      <View className="flex-1 justify-center items-center">
+        <ActivityIndicator size="large" color="#9b59b6" />
+        <Text className="text-white mt-4">Loading chat...</Text>
+      </View>
+    );
+  }
+
+  return (
+    <Channel channel={activeChannel}>
+      <MessageList />
+      <MessageInput />
+    </Channel>
+  );
+};
+
+export default ChannelScreen;

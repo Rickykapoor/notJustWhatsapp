@@ -94,6 +94,7 @@ const Friends = () => {
                     </Text>
                 </View>
             ) : (
+                
                 <FlatList
                     data={friends}
                     keyExtractor={(item) => item.id}
