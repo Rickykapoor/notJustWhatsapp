@@ -4,7 +4,9 @@ A modern, full-featured chat application built with **React Native + Expo**, int
 
 > Inspired by WhatsApp, improved by creativity. 💬✨
 
-![App Banner](https://via.placeholder.com/800x300?text=notJustWhatsapp+Banner)
+<p align="center">
+  <img src="https://via.placeholder.com/800x300?text=notJustWhatsapp+Banner" alt="App Banner" width="100%" />
+</p>
 
 ---
 
@@ -58,37 +60,30 @@ A modern, full-featured chat application built with **React Native + Expo**, int
 
 ### 🔐 Authentication
 
-#### Sign In
-![Sign In](./src/assets/images/notJustWhatsapp-Mockups/SignIn.png)
-
-#### Sign Up
-![Sign Up](./src/assets/images/notJustWhatsapp-Mockups/SignUp.png)
+<p float="left">
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/SignIn.png" alt="Sign In" width="250"/>
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/SignUp.png" alt="Sign Up" width="250"/>
+</p>
 
 ---
 
 ### 🏠 Home & Users
 
-#### Home Screen
-![Home](./src/assets/images/notJustWhatsapp-Mockups/Home.png)
-
-#### Users Screen
-![Users](./src/assets/images/notJustWhatsapp-Mockups/Users.png)
-
-#### Home Tab Layout
-![Home Tab Layout](./src/assets/images/notJustWhatsapp-Mockups/Home_tablyout.png)
-
-#### Users Tab Layout
-![Users Tab Layout](./src/assets/images/notJustWhatsapp-Mockups/Users_tablayout.png)
+<p float="left">
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/Home.png" alt="Home" width="250"/>
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/Users.png" alt="Users" width="250"/>
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/Home_tablayout.png" alt="Home Tab Layout" width="250"/>
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/Users_tablayout.png" alt="Users Tab Layout" width="250"/>
+</p>
 
 ---
 
 ### 👥 Friends & 🔔 Notifications
 
-#### Friends Screen
-![Friends](./src/assets/images/notJustWhatsapp-Mockups/Friends.png)
-
-#### Notification Screen
-![Notification](./src/assets/images/notJustWhatsapp-Mockups/notification.png)
+<p float="left">
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/Friends.png" alt="Friends" width="250"/>
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/Notification.png" alt="Notifications" width="250"/>
+</p>
 
 ---
 
@@ -108,3 +103,4 @@ A modern, full-featured chat application built with **React Native + Expo**, int
 ```bash
 git clone https://github.com/your-username/notJustWhatsapp.git
 cd notJustWhatsapp
+
