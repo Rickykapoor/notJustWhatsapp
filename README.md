@@ -45,38 +45,50 @@ A modern, full-featured chat application built with **React Native + Expo**, int
 
 ## 🧱 Tech Stack
 
-| Tech         | Role                         |
-|--------------|------------------------------|
-| React Native | UI development (with Expo)   |
-| Supabase     | Auth, DB, Storage             |
-| Stream Chat  | Real-time messaging           |
-| Expo Image Picker | Profile avatar selection |
+| Tech              | Role                          |
+|-------------------|-------------------------------|
+| React Native      | UI development (with Expo)    |
+| Supabase          | Auth, DB, Storage             |
+| Stream Chat       | Real-time messaging           |
+| Expo Image Picker | Profile avatar selection      |
 
 ---
 
 ## 📸 Screenshots
 
-> Replace the placeholder URLs with your own hosted screenshots.
+### 🔐 Authentication
 
-### Login / Signup
+#### Sign In
+![Sign In](./src/assets/images/notJustWhatsapp-Mockups/SignIn.png)
 
-![Login Screen](https://via.placeholder.com/300x600?text=Login+Screen)
-![Signup Screen](https://via.placeholder.com/300x600?text=Signup+Screen)
+#### Sign Up
+![Sign Up](./src/assets/images/notJustWhatsapp-Mockups/SignUp.png)
 
-### Home & Chat
+---
 
-![Chat List](https://via.placeholder.com/300x600?text=Chat+List)
-![Chat UI](https://via.placeholder.com/300x600?text=Chat+Screen)
+### 🏠 Home & Users
 
-### Friends & Notifications
+#### Home Screen
+![Home](./src/assets/images/notJustWhatsapp-Mockups/Home.png)
 
-![Friends Tab](https://via.placeholder.com/300x600?text=Friends+Tab)
-![Notifications](https://via.placeholder.com/300x600?text=Notifications)
+#### Users Screen
+![Users](./src/assets/images/notJustWhatsapp-Mockups/Users.png)
 
-### Profile & Notes
+#### Home Tab Layout
+![Home Tab Layout](./src/assets/images/notJustWhatsapp-Mockups/Home_tablyout.png)
 
-![Profile Page](https://via.placeholder.com/300x600?text=Profile+Screen)
-![Insta Notes](https://via.placeholder.com/300x600?text=Insta+Notes)
+#### Users Tab Layout
+![Users Tab Layout](./src/assets/images/notJustWhatsapp-Mockups/Users_tablayout.png)
+
+---
+
+### 👥 Friends & 🔔 Notifications
+
+#### Friends Screen
+![Friends](./src/assets/images/notJustWhatsapp-Mockups/Friends.png)
+
+#### Notification Screen
+![Notification](./src/assets/images/notJustWhatsapp-Mockups/notification.png)
 
 ---
 

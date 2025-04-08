@@ -10,7 +10,7 @@ const status = () => {
     end={{ x: 0.5, y: 1 }} style={{flex: 1}}>
       
     <View className='flex-1 justify-center items-center'>
-      <Text className='text-white text-2xl font-bold'>Comming Soon</Text>
+      <Text className='text-white text-2xl font-bold'>Coming Soon</Text>
     </View>
     </LinearGradient>
   )

@@ -74,7 +74,7 @@ const home = () => {
     locations={[0.2, 0.5, 0.8, 1]}  
     start={{ x: 0.5, y: 0 }} 
     end={{ x: 0.5, y: 1 }} style={{flex: 1}}>
-      <StatusBar style='light' />
+      <StatusBar style='light' backgroundColor="#10002B" />
     <View className='flex-1 justify-start '>
 
     <Text className="text-white text-2xl font-extrabold ml-6 mt-6 tracking-wide">

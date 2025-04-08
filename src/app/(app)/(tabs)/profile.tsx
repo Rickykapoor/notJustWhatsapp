@@ -1,4 +1,4 @@
-import { View, Text, Image, TouchableOpacity, Alert, ActivityIndicator } from 'react-native';
+import { View, Text, Image, TouchableOpacity, Alert, ActivityIndicator, StatusBar } from 'react-native';
 import React, { useState } from 'react';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/providers/AuthProvider';
@@ -86,6 +86,7 @@ const ProfileScreen = () => {
       end={{ x: 0.5, y: 1 }}
       style={{ flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 20 }}
     >
+      <StatusBar  backgroundColor="#10002B" />
       <TouchableOpacity onPress={uploadAvatar}>
         <Image
           source={{
