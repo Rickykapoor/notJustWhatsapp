@@ -5,7 +5,7 @@ A modern, full-featured chat application built with **React Native + Expo**, int
 > Inspired by WhatsApp, improved by creativity. 💬✨
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x300?text=notJustWhatsapp+Banner" alt="App Banner" width="100%" />
+  <img src="./src/assets/images/notJustWhatsapp-Mockups/banner.png" alt="App Banner" width="100%" />
 </p>
 
 ---
